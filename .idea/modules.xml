@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservicesSYF.iml" filepath="$PROJECT_DIR$/.idea/microservicesSYF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-algorithms/ru.kuzma.syf.service-bd.iml" filepath="$PROJECT_DIR$/service-algorithms/ru.kuzma.syf.service-bd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-bd/service-algorithms.iml" filepath="$PROJECT_DIR$/service-bd/service-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-database/service-bd.iml" filepath="$PROJECT_DIR$/service-database/service-bd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-algorithm/service-database.iml" filepath="$PROJECT_DIR$/service-algorithm/service-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-platform/service-platform.iml" filepath="$PROJECT_DIR$/service-platform/service-platform.iml" />
+    </modules>
+  </component>
+</project>

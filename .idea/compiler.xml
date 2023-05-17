@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-platform" />
+        <module name="service-database" />
+        <module name="service-algorithms" />
+        <module name="service-bd" />
+        <module name="ru.kuzma.syf.service-bd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ru.kuzma.syf.service-bd" target="1.8" />
+      <module name="service-algorithms" target="1.5" />
+      <module name="service-bd" target="1.8" />
+      <module name="service-database" target="1.8" />
+      <module name="service-for-gateway" target="11" />
+      <module name="service-for-gateway-second" target="11" />
+      <module name="service-platform" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ru.kuzma.syf.service-bd" options="-parameters" />
+      <module name="service-bd" options="-parameters" />
+      <module name="service-database" options="-parameters" />
+      <module name="service-for-gateway" options="-parameters" />
+      <module name="service-for-gateway-second" options="-parameters" />
+      <module name="service-platform" options="-parameters --add-modules java.base" />
+    </option>
+  </component>
+</project>

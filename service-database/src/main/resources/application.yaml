@@ -1,0 +1,12 @@
+server:
+  port: 9098
+
+#spring:
+#  personal-datasource:
+#    url: jdbc:postgresql://localhost:5432/safe_family
+#    username: postgres
+#    password: 1
+#  technical-datasource:
+#    url: ""
+#    username: ""
+#    password: ""
